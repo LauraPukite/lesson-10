@@ -1,0 +1,17 @@
+.flex-wrapper {
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(95, 95, 95);
+    background: rgb(170, 170, 170);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.flex-block {
+    justify-content: space-between;
+}
+
+.flex-block-2 {
+    width: 40px;
+}
