@@ -1,17 +1,24 @@
-.flex-wrapper {
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.row {
     display: flex;
-    justify-content: center;
-    border: 2px solid rgb(95, 95, 95);
-    background: rgb(170, 170, 170);
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
 }
 
-.flex-block {
-    justify-content: space-between;
+.item {
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
 }
 
-.flex-block-2 {
-    width: 40px;
+.grow-1 {
+    flex-grow: 1;
+}
+
+.width-300 {
+    flex-basis: 300%;
 }
